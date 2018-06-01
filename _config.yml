@@ -1,0 +1,64 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Trickie Dickie Beers
+pagetitlebase: Trickie Dickie Beers - Small Batch Beer Brewed In Eaglesham, Scotland
+email: trickiedickiebeer@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Trickie Dickie Beers - Small Batch Beer Brewed In Eaglesham, Scotland
+keywords: Trickie dickie beers, beer brewing, Eaglesham, Scotland
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Enter your Mailchimp User ID and Campaign ID
+mailchimp:
+  user-id: 18d09c5d1c4d52173ad7da0aa
+  list-id: b764699ed1
+#social links
+social:
+  facebook: https://www.facebook.com/TamarindOfMayfair
+  twitter: https://twitter.com/TamarindMayfair
+  pinterest: https://uk.pinterest.com/tamarindlondon/
+  instagram: https://www.instagram.com/tamarindofmayfair/
+googleAnalytics: UA-120226182-1
+
+# Build settings
+markdown: kramdown
+
+# plugins:
+
+sass:
+  # loading path from site root
+  # default to _sass
+  sass_dir: _sass
+  style: compressed
+  
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - package.json
+  - node_modules
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+
