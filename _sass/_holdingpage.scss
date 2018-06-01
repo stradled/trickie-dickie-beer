@@ -58,26 +58,7 @@ body {
   margin: auto;
 }
 
-.book-a-table {
-  padding-top: 30px;
-}
 
-.parallax {
-  /* The image used */
-  background-image: url("../assets/tamarind-food-image-v2.jpg");
-  /* Set a specific height */
-  height: 460px;
-  width: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: right;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
 
 .footer-background-image {
   position: relative;
@@ -86,13 +67,7 @@ body {
   margin: 0 auto;
 }
 
- @media screen and (max-width: 992px){
-   .parallax {
-     /* The image used */
-     background-image: url("../assets/mobile/Tamarind2.jpg");
-     background-attachment: scroll;
-   }
- }
+ 
 
 .footer-block-1-social-title {
   left: 50%;
@@ -131,58 +106,6 @@ body {
   padding: 0;
 }
 
-.book-a-table a {
-  text-decoration: underline;
-  font-size: 1.5vw;
-}
-
-.book-a-table a:hover {
-  text-decoration: underline;
-  font-size: 1.5vw;
-}
-
-.book-a-table a:active {
-  text-decoration: underline;
-  font-size: 1.5vw;
-}
-
-.book-a-table a:visited {
-  text-decoration: underline;
-  font-size: 1.5vw;
-}
-
-@media screen and (max-width: 768px) {
-  .book-a-table a {
-    text-decoration: underline;
-    font-size: 5.5vw;
-  }
-
-  .book-a-table a:hover {
-    text-decoration: underline;
-    font-size: 5.5vw;
-  }
-
-  .book-a-table a:active {
-    text-decoration: underline;
-    font-size: 5.5vw;
-  }
-
-  .book-a-table a:visited {
-    text-decoration: underline;
-    font-size: 5.5vw;
-  }
-}
-
-.social-padding {
-  padding-right: 55px;
-}
-
-@media screen and (max-width: 992px) {
-  .social-padding {
-    padding-right: 30px;
-  }
-}
-
 #mc_embed_signup {
   #mce-EMAIL {
     background: transparent;
@@ -190,7 +113,7 @@ body {
     padding: 10px 50px;
     text-align: center;
     font-family: AfterallSerif-RegularWEB, Arial;
-    color: rgb(65, 65, 65);
+    color: #fff;
     width: 100%;
     font-size: 1.5vw;
   }
@@ -218,7 +141,7 @@ body {
   div.mce_inline_error, div.mce-success-response {
     // background: transparent;
     font-family: AfterallSerif-RegularWEB, Arial !important;
-    color: rgb(65, 65, 65) !important;
+    color: #fff !important;
     width: 100% !important;
     background-color: transparent !important;
     font-weight: normal !important;
@@ -250,32 +173,6 @@ body {
     #mc-embedded-subscribe {
       font-size: 5.5vw;
     }
-  }
-}
-
-#privacy-button {
-  color: #414141;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-#privacy-policy-container {
-  display: none;
-}
-
-.privacy-policy {
-  background: rgb(230, 230, 230);
-  .footer-block-4-privacy-policy {
-    padding-bottom: 2.75rem;
-    padding-top: 1rem;
-    text-align: center;
-  }
-  .privacy-section {
-    padding-top: 2.75rem;
-  }
-  h5 {
-    margin-bottom: 1.25rem;
   }
 }
 
@@ -328,10 +225,6 @@ body {
 .intro-background-image {
   background-image: url("../assets/background/layer-1.png") ;
   background-repeat: repeat;
-  // background-size: cover;
-  // -webkit-background-size: cover;
-  // -moz-background-size: cover;
-  // -o-background-size: cover;
 }
 
 .intro-text{
@@ -353,9 +246,6 @@ body {
 }
 
 @media screen and (max-width: 992px) {
-  .intro-background-image {
-    background-image: url("../assets/mobile/main-image-small.jpg");
-  }
   .intro-v2-intro-text1 {
     padding-top: 75%;
     display: table;
